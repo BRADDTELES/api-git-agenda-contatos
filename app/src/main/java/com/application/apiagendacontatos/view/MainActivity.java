@@ -1,7 +1,9 @@
-package com.application.apiagendacontatos;
+package com.application.apiagendacontatos.view;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.application.apiagendacontatos.R;
 
 public class MainActivity extends AppCompatActivity {
 

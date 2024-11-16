@@ -6,7 +6,7 @@
 
 ## Tecnologias utilizadas
 - Componentes: TextInputLayout, ImageButton, FloatingActionButton, Group e Guidelines
-- MVVM e Clean
+- Arquitetura MVC
 - Node.JS
 - MySQL Workbench
 - Postman
