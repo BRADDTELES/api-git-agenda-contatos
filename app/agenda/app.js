@@ -13,15 +13,15 @@ app.use(bodyParser.json());
     resposta.status(200).send({
         mensagem : 'URL do app funcionou!'
     });
-});*/
+});
 
-const contatoDao = require('./rotas/contatoDao');
-app.use(URL_BASE + '/contato-dao', contatoDao);
-
-/*app.use( (requisicao, resposta, next) => {
+app.use( (requisicao, resposta, next) => {
     const erro = new Error('Rota não encontrada :(');
     erro.status = 404;
     next(erro);
 });*/
+
+const contatoDao = require('./rotas/contatoDao');
+app.use(URL_BASE + '/contato-dao', contatoDao);
 
 module.exports = app;
